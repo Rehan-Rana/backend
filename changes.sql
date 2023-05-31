@@ -1,0 +1,3 @@
+CREATE USER bancuser WITH ENCRYPTED PASSWORD 'bancpass';
+
+GRANT ALL PRIVILEGES ON DATABASE bancolombia TO bancuser;
